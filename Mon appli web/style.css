@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fond-page-index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 90px;
+    background: rgb(18, 18, 18);
+    margin-bottom: 5px;
+    z-index: 2;   
+}
+
+.title a {
+    color: rgb(148, 219, 255);
+    text-decoration-line: none;
+    font-size: 40px;
+    font-family: Luminari, fantasy;
+    text-shadow: 5px 5px rgba(148, 219, 255, .30);
+    float: left;
+    margin-left: 50px;
+    z-index: 2;
+}
+
+.nav-topbar a {
+    float: right;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px 12%;
+    z-index: 1;
+}
+
+.nav-topbar a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 300px;
+    color: rgb(14, 14, 14);
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 200px, 200px;
+    display: flexbox;
+    justify-content: center;
+
+}
+
+.reservation {
+    grid-column: 2/5;
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.restaurant-vide {
+    grid-column: 3/5;
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
+}
+
+.logos-argent {
+    grid-column: 4/5;
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
+}
+
+.p-reservation {
+    grid-column: 2/5;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+.p-restaurant-vide {
+    grid-column: 3/5;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+.p-logos-argent {
+    grid-column: 4/5;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+.inscription {
+    margin-top: 10%;
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.inscription li {
+    list-style-type: none;
+}
+
+.login {
+    display: inline-block;
+}
+
+.login li {
+    list-style-type: none;
+}
+
+.connecter {
+    margin-top: 10%;
+}
+
+.side-bar {
+    width: 20%;
+    margin-top: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color:  rgb(148, 219, 255);
+    overflow-x: hidden;
+}
+
+.search {
+    margin-left: 55px;
+}
+
+.filtre {
+    padding-top: 20px;
+}
+
+.choix {
+    list-style: none;
+    margin: 5px 0 5px 10px
+}
+.choix li {
+    padding: 5px;
+}
+
+.button {
+    margin-right: 15px;
+    margin-left: 55px;
+}
+
+.maps-acceuil {
+    margin-top: 80px;
+    margin-left: 20%;
+    width: 80%;
+    z-index: 3;
+}
+
+.main {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 0%;
+}
+
+.img-restaurant {
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.nom-restaurant a {
+    text-decoration: none;
+    color: black;
+    margin-left: 300px;
+}
+
+.restaurant p {
+    margin-left: 240px;
+}
+
+.restaurant {
+    padding-bottom: 20px;
+}

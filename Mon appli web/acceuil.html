@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon appli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <h2 class="title"><a href="acceuil.html">Restokan</a></h2>
+        <nav class="nav-topbar">
+            <a href="mes-favoris.html">Mes favoris</a>
+            <a href="Mon-compte.html">Mon compte</a>
+        </nav>
+    </header>  
+    <div id="side-bar" class="side-bar">
+        <form class="filtre" action="">
+            <div class="search">
+                <input type="search" id="ville" name="ville" placeholder="ville">
+            </div>
+            <ul class="choix">
+                <li>
+                    <label for="genre"></label>
+                    <select name="genre" id="genre">
+                        <option value="genre">genre</option>
+                        <option value="français">français</option>
+                        <option value="indien">indien</option>
+                        <option value="japonais">japonais</option>
+                        <option value="thaï">thaï</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="tarif-moyen"></label>
+                    <select name="tarif-maoyen" id="tarif-moyen">
+                        <option value="tarif moyen">tarif-moyen</option>
+                        <option value="20€"><20€</option>
+                        <option value="21-40€">21-40€</option>
+                        <option value="41-60€">41-60€</option>
+                        <option value="+61€">+61€</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="place"></label>
+                    <select name="place" id="place">
+                        <option value="place">place</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="1.">10</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="button">
+                <button>recherche</button>
+            </div>
+        </form>
+    </div>
+    <iframe class="maps-acceuil" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.9185124466!2d2.347035000000013!3d48.85885484999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1685542457036!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

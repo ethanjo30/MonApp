@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.topbar-menu {
+    position: fixed;
+}
+
+.topbar-menu {
+    float: right;
+    margin-right: 40%;
+}
+
+*td {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
